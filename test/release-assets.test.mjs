@@ -14,6 +14,7 @@ test('public assets include only three vehicle models and their rendered gallery
   assert.deepEqual(COLLECTION_CATALOG.map(item=>item.setNumber).sort(),['10295','42083','42115']);
   assert.deepEqual(readdirSync(new URL('official/',root)).sort(),['10295','42083','42115']);
   const published=files(root);
+  for (const name of published.filter(name=>name.startsWith('lego-'))) assert.match(name,/^lego-(10295|42083|42115)-/);
   assert.ok(published.every(name=>!/(^|\/)(book-\d+|pages)(\/|$)/.test(name)));
   assert.ok(published.every(name=>!/^official\/\d+\/parts\//.test(name)));
   assert.ok(published.every(name=>! /\.(webp|jpe?g|pdf)$/i.test(name)));
