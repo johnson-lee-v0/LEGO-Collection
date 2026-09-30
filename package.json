@@ -1,0 +1,19 @@
+{
+  "name": "lego-collection",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/export-build.mjs && vite build && node scripts/prepare-static.mjs",
+    "start": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0",
+    "lucide": "0.468.0"
+  },
+  "devDependencies": {
+    "vite": "6.3.6"
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "title": "42083 Bugatti Chiron — community CAD reference",
+  "retrieved": "2026-09-28",
+  "modelSource": "https://library.ldraw.org/library/omr/42083-1.mpd",
+  "modelSourceAuthor": "Philippe Hurbain [Philo]",
+  "modelAuthorPost": "https://forums.ldraw.org/thread-22643.html",
+  "sourceSha256": "2fa9a581ed416989d6cc8d37b67285cb442729f24baf90a59ee2bf40ca342928",
+  "sourceLicense": "Redistributable under CCAL version 2.0, as stated in the source model headers.",
+  "officialInstructions": [
+    "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6257443.pdf",
+    "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6257444.pdf"
+  ],
+  "ldrawLibrarySource": "https://github.com/kulits/ldraw-parts",
+  "ldrawMirrorCommit": "b61b905f1173f120f528be9521bb870619c36785",
+  "changes": [
+    "Packed the community model and its geometry dependencies for local loading.",
+    "Normalized MPD filenames and references to lowercase slash paths.",
+    "Indexed physical part instances with stable IDs; the separately listed official geometry corrections replace documented source substitutions and omissions.",
+    "Counted each source-generated shock, flexible hose, axle, rubber band and string as one physical part.",
+    "Grouped three-component universal joint geometry into physical 61903 assemblies, preserving every component transform."
+  ],
+  "limitations": [
+    "Community reconstruction; the supplied LEGO booklets remain the authoritative instructions.",
+    "The author states that source STEP groups do not strictly follow the official stepping.",
+    "The author identifies omitted stickers as a known source limitation.",
+    "Some source print decorations are omitted; these differences are listed in the catalog crosswalk.",
+    "The corrected CAD and official assembly callouts contain 3,590 physical pieces. The printed inventory lists 3,598 and the product page publishes 3,599; the differences remain explicitly documented in the illustrated inventory."
+  ],
+  "officialGeometryCorrections": {
+    "setNumber": "42083",
+    "source": "Visually checked against the supplied LEGO booklets and existing connector coordinates.",
+    "additions": [
+      {
+        "step": 76,
+        "partFile": "32270.dat",
+        "ldrawColor": 0,
+        "position": [
+          -80,
+          -103,
+          160
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "nearInstanceId": "chiron-part-0340",
+        "evidence": "Official Book 1 p68 step76 adds the 12-tooth gear to the red6Laxle0340 between gray beams atz140/z180; axialcenterz160 and gear meshes with adjacent20-tooth gear at[-80,-63,160].",
+        "id": "chiron-part-3570"
+      },
+      {
+        "step": 99,
+        "partFile": "32270.dat",
+        "ldrawColor": 0,
+        "position": [
+          80,
+          -63,
+          40
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "nearInstanceId": "chiron-part-0421",
+        "evidence": "Official Book 1 p78 step99 adds the 12-tooth gear on the exposed black axle0390, coplanar with the new blue20-tooth gear0421 centered[40,-63,40].",
+        "id": "chiron-part-3571"
+      },
+      {
+        "step": 85,
+        "partFile": "4274.dat",
+        "ldrawColor": 71,
+        "position": [
+          -100,
+          -103,
+          210
+        ],
+        "matrix": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "nearInstanceId": "chiron-part-0377",
+        "evidence": "Official Book 1 p71 step85 inserts the half-pin in the center of the three-hole row of black63869 source0377; collar atz210 faces out, shaft through connectorat z200.",
+        "id": "chiron-part-3572"
+      },
+      {
+        "step": 502,
+        "partFile": "4274.dat",
+        "ldrawColor": 71,
+        "position": [
+          10,
+          -123,
+          420
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "nearInstanceId": "chiron-part-1891",
+        "evidence": "Official Book 2 p27 step502 inserts the half-pin in the second roundhole from the long end of the newLbeam1891: nativez40, world[0,-123,420], collaron+xface.",
+        "id": "chiron-part-3573"
+      },
+      {
+        "step": 213,
+        "partFile": "59443.dat",
+        "ldrawColor": 4,
+        "position": [
+          0,
+          -63,
+          -470
+        ],
+        "matrix": [
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "nearInstanceId": "chiron-part-0846",
+        "evidence": "Official Book 1 p146 step213 places the red2Laxleconnector on the exposed end of gray5Laxle0844 beyond black42003 source0846. Axle spansz−470..−370; connector centeredz−470 engages its last20LDU.",
+        "id": "chiron-part-3574"
+      },
+      {
+        "step": 518,
+        "partFile": "32523.dat",
+        "ldrawColor": 71,
+        "position": [
+          10,
+          -43,
+          500
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "nearInstanceId": "chiron-part-1960",
+        "evidence": "Official Book 2 p37 step518 places a gray3Lbeam beneath the intake panel61069 source1960, joining the exposed 2Lpin halves of red11214 atz480/500; center[10,-43,500].",
+        "id": "chiron-part-3575"
+      },
+      {
+        "step": 519,
+        "partFile": "32523.dat",
+        "ldrawColor": 71,
+        "position": [
+          -10,
+          -43,
+          500
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "nearInstanceId": "chiron-part-1961",
+        "evidence": "Official Book 2 p38 step519 mirrors the gray3Lbeam underneath the opposite intake panel61069 source1961; center[-10,-43,500].",
+        "id": "chiron-part-3576"
+      },
+      {
+        "step": 68,
+        "partFile": "2780.dat",
+        "ldrawColor": 0,
+        "position": [
+          -100,
+          -63,
+          130
+        ],
+        "matrix": [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        "nearInstanceId": "chiron-part-0314",
+        "evidence": "Book1p64 step68 shows three blackpins on the second gray32526. Sourcehas the branch end and middle-long-hole pins; the elbow pin [-100,-63,130] is absent and later connects black5Lbeam0321.",
+        "id": "chiron-part-3577"
+      },
+      {
+        "step": 226,
+        "partFile": "2780.dat",
+        "ldrawColor": 0,
+        "position": [
+          60,
+          -33,
+          -180
+        ],
+        "matrix": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "nearInstanceId": "chiron-part-0888",
+        "evidence": "Book1p151 step226 shows four pins under the gray9Lbeam at holes ±20 and ±60 from center; sourceomits +60.",
+        "id": "chiron-part-3578"
+      },
+      {
+        "step": 305,
+        "partFile": "2780.dat",
+        "ldrawColor": 0,
+        "position": [
+          30,
+          -63,
+          -620
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "nearInstanceId": "chiron-part-1163",
+        "evidence": "Book1p191 step305 adds the blackpin through the exposed end hole of gray9Lbeam1163, mirroring earlier pin1158 on the other side.",
+        "id": "chiron-part-3579"
+      },
+      {
+        "step": 431,
+        "partFile": "2780.dat",
+        "ldrawColor": 0,
+        "position": [
+          150,
+          -23,
+          0
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "nearInstanceId": "chiron-part-1612",
+        "evidence": "Book1p268 step431 adds the blackpin at the free outside end of the lowerHbeam row, opposite the existingblue6558. Pinjoins Hframe1612 atx160 to blackrailatx140 throughz0.",
+        "id": "chiron-part-3580"
+      },
+      {
+        "step": 448,
+        "partFile": "2780.dat",
+        "ldrawColor": 0,
+        "position": [
+          -150,
+          -23,
+          0
+        ],
+        "matrix": [
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "nearInstanceId": "chiron-part-1665",
+        "evidence": "Book1p277 step448 mirrors the blackpin in the lowerHbeam row connecting Hframe1665 atx−160 to blackrailatx−140 throughz0.",
+        "id": "chiron-part-3581"
+      },
+      {
+        "partFile": "24246.dat",
+        "ldrawColor": 71,
+        "position": [
+          140,
+          -183,
+          -219
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ],
+        "nearInstanceId": "chiron-part-2734",
+        "step": 749,
+        "evidence": "Official booklet 6257444, page 173, step 749 shows element 6151688 (Light Bluish Gray 24246) on the steering-wheel center stud. Existing wheel 2734 has its stud base at native y=-11; the tile underside is native y=8, putting the tile origin at wheel-local y=-19 and world [140,-183,-219]. The half-round tile is rotated about the stud so its curved edge faces upward. Sticker 16 is a separate decoration and is not synthesized by this correction.",
+        "id": "chiron-part-3582"
+      },
+      {
+        "partFile": "3713.dat",
+        "ldrawColor": 71,
+        "position": [
+          398.32,
+          -30,
+          452.94
+        ],
+        "matrix": [
+          0.866,
+          0,
+          -0.5,
+          0,
+          1,
+          0,
+          0.5,
+          0,
+          0.866
+        ],
+        "nearInstanceId": "chiron-part-3542",
+        "step": 965,
+        "evidence": "Official booklet 6257444, page 308, step 965 inset 2 places the gray bush between the two arms of the 41678 fork, then pushes the 11L axle through it. The existing fork 3541 is centered at [398.32,-30,452.94]. Its axle arms occupy native x=-20..-10 and x=10..20; the 3713 bush spans native z=-10..10 and therefore fills the central gap at that same world center. Its axis follows the existing 23948 axle 3542, world [-0.5,0,0.866].",
+        "id": "chiron-part-3583"
+      },
+      {
+        "partFile": "93273.dat",
+        "ldrawColor": 28,
+        "position": [
+          0,
+          -129,
+          -700
+        ],
+        "matrix": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        "nearInstanceId": "chiron-part-3569",
+        "step": 970,
+        "evidence": "Official booklet 6257444, pages 313-314, step 970 inset 7 caps the luggage with element 6167936 (Dark Tan 93273). Its long native z axis spans the bag's world x direction. The center underside at native y=-8 meets existing top-center plate 3557 at world y=-137, setting the cap origin to y=-129. Its four underside stud positions then align with the center plate studs at x=+-10 and the two string-end studs at x=+-30; world center z=-700.",
+        "id": "chiron-part-3584"
+      },
+      {
+        "step": 289,
+        "partFile": "6558.dat",
+        "ldrawColor": 1,
+        "position": [
+          40,
+          -23,
+          -480
+        ],
+        "matrix": [
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "nearInstanceId": "chiron-part-1121",
+        "evidence": "Official Book 1 p184 step 289 adds four blue pins. The two absent pins pass through the front ends of the 11L beams at x±60 and new bent-beam holes at z−480, joining the parent 15L rails at x±20; orientation matches the corresponding existing pins1121/1122.",
+        "id": "chiron-part-3585"
+      },
+      {
+        "step": 289,
+        "partFile": "6558.dat",
+        "ldrawColor": 1,
+        "position": [
+          -40,
+          -23,
+          -480
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "nearInstanceId": "chiron-part-1122",
+        "evidence": "Official Book 1 p184 step 289 adds four blue pins. The two absent pins pass through the front ends of the 11L beams at x±60 and new bent-beam holes at z−480, joining the parent 15L rails at x±20; orientation matches the corresponding existing pins1121/1122.",
+        "id": "chiron-part-3586"
+      },
+      {
+        "step": 424,
+        "partFile": "6558.dat",
+        "ldrawColor": 1,
+        "position": [
+          120,
+          -323,
+          -160
+        ],
+        "matrix": [
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "nearInstanceId": "chiron-part-1582",
+        "evidence": "Official Book 1 p266 step 424 shows eight pins, four per 5L beam. Source has only holes1/3 at z−180/−140. Added holes2/4 at z−160/−120 use the opposite pin orientation, as the inset shows.",
+        "id": "chiron-part-3587"
+      },
+      {
+        "step": 424,
+        "partFile": "6558.dat",
+        "ldrawColor": 1,
+        "position": [
+          120,
+          -323,
+          -120
+        ],
+        "matrix": [
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "nearInstanceId": "chiron-part-1582",
+        "evidence": "Official Book 1 p266 step 424 shows eight pins, four per 5L beam. Source has only holes1/3 at z−180/−140. Added holes2/4 at z−160/−120 use the opposite pin orientation, as the inset shows.",
+        "id": "chiron-part-3588"
+      },
+      {
+        "step": 424,
+        "partFile": "6558.dat",
+        "ldrawColor": 1,
+        "position": [
+          -120,
+          -323,
+          -160
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "nearInstanceId": "chiron-part-1585",
+        "evidence": "Official Book 1 p266 step 424 shows eight pins, four per 5L beam. Source has only holes1/3 at z−180/−140. Added holes2/4 at z−160/−120 use the opposite pin orientation, as the inset shows.",
+        "id": "chiron-part-3589"
+      },
+      {
+        "step": 424,
+        "partFile": "6558.dat",
+        "ldrawColor": 1,
+        "position": [
+          -120,
+          -323,
+          -120
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "nearInstanceId": "chiron-part-1585",
+        "evidence": "Official Book 1 p266 step 424 shows eight pins, four per 5L beam. Source has only holes1/3 at z−180/−140. Added holes2/4 at z−160/−120 use the opposite pin orientation, as the inset shows.",
+        "id": "chiron-part-3590"
+      },
+      {
+        "step": 471,
+        "partFile": "43093.dat",
+        "ldrawColor": 1,
+        "position": [
+          190,
+          -23,
+          460
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "nearInstanceId": "chiron-part-1746",
+        "evidence": "Official Book 1 p297 step 471 adds two axle-pins through the rear end holes of the black 15L rails at x±180,z460. Native −X pin points into the beam; the axle points outward.",
+        "id": "chiron-part-3591"
+      },
+      {
+        "step": 471,
+        "partFile": "43093.dat",
+        "ldrawColor": 1,
+        "position": [
+          -190,
+          -23,
+          460
+        ],
+        "matrix": [
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "nearInstanceId": "chiron-part-1747",
+        "evidence": "Official Book 1 p297 step 471 adds two axle-pins through the rear end holes of the black 15L rails at x±180,z460. Native −X pin points into the beam; the axle points outward.",
+        "id": "chiron-part-3592"
+      }
+    ],
+    "removals": [
+      {
+        "id": "chiron-part-2365",
+        "evidence": "Not present in official637/638; duplicates and physically overlaps existing blue6558 instance2128 on the same Z axis of the side-panel mount."
+      },
+      {
+        "id": "chiron-part-2391",
+        "evidence": "Not present in official646/647; duplicates and physically overlaps existing blue6558 instance2180 on the same Z axis of the opposite side-panel mount."
+      }
+    ],
+    "stepAnchors": {
+      "chiron-part-0320": 67,
+      "chiron-part-0313": 68
+    },
+    "stepAnchorEvidence": "Book 1 p64 step67 puts the blackpin in the middle of the first32526 longarm: world[-60,-103,130]. The source lists the later pin0313 first; it belongs to the second Lbeam assembled at68."
+  },
+  "endorsement": "This prototype is not affiliated with or endorsed by the LEGO Group or Bugatti Automobiles."
+}

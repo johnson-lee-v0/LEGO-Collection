@@ -1,0 +1,192 @@
+{
+  "title": "42115 Lamborghini Sián FKP 37 — community CAD reference",
+  "retrieved": "2026-09-27",
+  "modelSource": "https://library.ldraw.org/library/omr/42115-1.mpd",
+  "modelSourceAuthor": "Jens Brühl [jb70]",
+  "sourceSha256": "f00e9405970e1b23a13ca344c2041fd301f9f6a977807879132379f5cebdd14a",
+  "sourceLicense": "Redistributable under CCAL version 2.0, as stated in the source model headers.",
+  "officialInstructions": [
+    "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6392465.pdf",
+    "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6394695.pdf"
+  ],
+  "ldrawLibrarySource": "https://github.com/kulits/ldraw-parts",
+  "ldrawMirrorCommit": "b61b905f1173f120f528be9521bb870619c36785",
+  "changes": [
+    "Packed the community model and its geometry dependencies for local loading.",
+    "Normalized MPD filenames and references to lowercase slash paths.",
+    "Indexed physical part instances with stable IDs; the separately listed official geometry corrections replace documented source substitutions and omissions.",
+    "Counted each source-generated shock, flexible hose, axle, rubber band and string as one physical part.",
+    "Grouped each of six three-component universal joints into one physical 61903 assembly, preserving every component transform."
+  ],
+  "limitations": [
+    "Community reconstruction; the supplied LEGO booklets remain the authoritative instructions.",
+    "The source STEP groups are coarser than the official numbered steps.",
+    "Some source print decorations are omitted; these differences are listed in the catalog crosswalk.",
+    "The physical instance count agrees with the published 3,696 pieces after grouping six universal joints; per-step identity and placement require separate validation."
+  ],
+  "officialGeometryCorrections": {
+    "setNumber": "42115",
+    "replaceMudguards": true,
+    "mudguardReplacement": {
+      "sourcePartFile": "24118.dat",
+      "correctPartFile": "67141.dat",
+      "instanceIds": [
+        "sian-part-2402",
+        "sian-part-2545",
+        "sian-part-3518",
+        "sian-part-3611"
+      ],
+      "preserveTransforms": true,
+      "removeExtraBeamIds": [
+        "sian-part-2403",
+        "sian-part-2404",
+        "sian-part-2546",
+        "sian-part-2547"
+      ],
+      "evidence": {
+        "bookletId": "6394695",
+        "pages": [
+          108,
+          132,
+          284,
+          302
+        ],
+        "steps": [
+          697,
+          746,
+          1029,
+          1062
+        ],
+        "description": "All four official instruction placements show the 67141 mudguard. Its lower connection centers match 24118, so the existing transforms are retained. Upper holes move from native (-20,-80,+/-100) on 24118 to (-20,-60,+/-120) on 67141, matching the existing axle/pin/collar positions directly. The four added 43857 beams in the source bridge the older geometry and are absent from the official inventory and instructions."
+      }
+    },
+    "parts": [
+      {
+        "id": "sian-part-2403",
+        "partFile": "2780.dat",
+        "ldrawColor": 0,
+        "position": [
+          -40,
+          0,
+          -770
+        ],
+        "matrix": [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "step": 215,
+        "nearInstanceId": "sian-part-0771",
+        "sourceAssemblyId": "root/357",
+        "sourceStep": 2,
+        "evidence": {
+          "bookletId": "6392465",
+          "page": 154,
+          "description": "Official step 215 adds two black 2L friction pins through the front 15L beam, centered at local x +/-40, y20, z30. The front-axle assembly translates by [0,-20,-800]."
+        }
+      },
+      {
+        "id": "sian-part-2404",
+        "partFile": "2780.dat",
+        "ldrawColor": 0,
+        "position": [
+          40,
+          0,
+          -770
+        ],
+        "matrix": [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "step": 215,
+        "nearInstanceId": "sian-part-0772",
+        "sourceAssemblyId": "root/357",
+        "sourceStep": 2,
+        "evidence": {
+          "bookletId": "6392465",
+          "page": 154,
+          "description": "Official step 215 adds two black 2L friction pins through the front 15L beam, centered at local x +/-40, y20, z30. The front-axle assembly translates by [0,-20,-800]."
+        }
+      },
+      {
+        "id": "sian-part-2546",
+        "partFile": "32054.dat",
+        "ldrawColor": 4,
+        "position": [
+          -160,
+          -120,
+          -320
+        ],
+        "matrix": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "step": 302,
+        "nearInstanceId": "sian-part-1129",
+        "sourceAssemblyId": "root",
+        "sourceStep": 53,
+        "evidence": {
+          "bookletId": "6392465",
+          "step": 302,
+          "description": "Position and orientation audited by the parent agent against the official page and frame geometry: stop face z=-330 meets the frame outer face; shaft reaches z=-300 through the beam."
+        }
+      },
+      {
+        "id": "sian-part-2547",
+        "partFile": "32054.dat",
+        "ldrawColor": 4,
+        "position": [
+          160,
+          -120,
+          -320
+        ],
+        "matrix": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "step": 323,
+        "nearInstanceId": "sian-part-1176",
+        "sourceAssemblyId": "root",
+        "sourceStep": 56,
+        "evidence": {
+          "bookletId": "6392465",
+          "step": 323,
+          "description": "Position and orientation audited by the parent agent against the official page and frame geometry: stop face z=-330 meets the frame outer face; shaft reaches z=-300 through the beam."
+        }
+      }
+    ],
+    "notes": [
+      "The four removed beam instance IDs are reused for four source-omitted pins; all other instance IDs remain unchanged.",
+      "Existing black pins at step 222 and red pins at step 333 must remain; they are not missing.",
+      "Geometric connection audit only; this is not a physical load or tolerance test."
+    ]
+  },
+  "endorsement": "This prototype is not affiliated with or endorsed by the LEGO Group or Automobili Lamborghini."
+}

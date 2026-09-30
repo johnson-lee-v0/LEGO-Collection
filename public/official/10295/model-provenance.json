@@ -1,0 +1,168 @@
+{
+  "title": "10295 Porsche 911 Turbo — community CAD reference",
+  "retrieved": "2026-09-28",
+  "modelSource": "https://library.ldraw.org/library/omr/10295-1_911-Turbo.mpd",
+  "modelSourceAuthor": "Ulrich Röder {UR}",
+  "modelSourcePage": "https://library.ldraw.org/omr/sets/1384",
+  "modelAuthorPost": "https://forums.ldraw.org/thread-22701.html",
+  "sourceSha256": "0f5f18f024bce4f6e91a9cb1c96c15114c62f4ef68ce2331b6b78b45e32a380d",
+  "sourceLicense": "Redistributable under CCAL version 2.0, as stated in the source model headers.",
+  "officialInstructions": [
+    "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6379206.pdf"
+  ],
+  "ldrawLibrarySource": "https://github.com/kulits/ldraw-parts",
+  "ldrawMirrorCommit": "b61b905f1173f120f528be9521bb870619c36785",
+  "changes": [
+    "Packed the attributed Turbo reconstruction and all geometry dependencies for local loading.",
+    "Normalized MPD filenames and references to lowercase slash paths.",
+    "Indexed physical part instances and source assembly hierarchy with stable IDs.",
+    "Grouped one universal joint and four hinge plates into factory assemblies while preserving every source component transform."
+  ],
+  "limitations": [
+    "Community reconstruction; the supplied LEGO booklet remains the authoritative instruction source.",
+    "The source has named subassemblies but no STEP markers. Repeated-part placement order is inferred within validated assembly inventories.",
+    "Only the Turbo route is included; the full box inventory also supplies the alternative Targa."
+  ],
+  "officialGeometryCorrections": {
+    "removals": [
+      {
+        "id": "porsche-part-0439",
+        "evidence": "Base105 / booklet6379206 p72 calls for one white61409 slope on diagram-right of the inverted bumper. Base106 confirms this is the side with43711 slope and43722 plate, matching source0442/0443 at negative x. Keep0438 at x-110; remove the uncalled mirror0439 at x+110."
+      }
+    ],
+    "stepAnchors": {
+      "porsche-part-0438": 105,
+      "porsche-part-0628": 175,
+      "porsche-part-0629": 175
+    },
+    "replacements": [
+      {
+        "id": "porsche-part-1027",
+        "ldrawColor": 71,
+        "step": 292,
+        "evidence": "Official booklet 6379206, page 172, Base step 292 calls for two Light Bluish Gray 3L bars (element 6093527) through the headlight dishes. This is the bar in the left headlight source assembly root/188; the original source incorrectly colors it White. Position and rotation are retained."
+      },
+      {
+        "id": "porsche-part-1037",
+        "ldrawColor": 71,
+        "step": 292,
+        "evidence": "Official booklet 6379206, page 172, Base step 292 calls for two Light Bluish Gray 3L bars (element 6093527) through the headlight dishes. This is the bar in the right headlight source assembly root/189; the original source incorrectly colors it White. Position and rotation are retained. The White bar in the Turbo charger is a separate correctly colored item."
+      },
+      {
+        "id": "porsche-part-1139",
+        "partFile": "87552p02.dat",
+        "ldrawColor": 47,
+        "step": 317,
+        "evidence": "Official booklet 6379206, page 195, Turbo step 12 (global 317) places element 6343853, catalog 87552pr0012, at the end of the rear quarter window beside the White upright bricks. Official LDraw 87552p02 explicitly identifies that catalog print: https://library.ldraw.org/library/official/parts/87552p02.dat . This source left-side strip uses an unrotated panel at local x=-40; the adjacent White uprights are at x=-70, so the native -X printed corner faces the correct end. The source plain panel is replaced at its unchanged transform."
+      },
+      {
+        "id": "porsche-part-1149",
+        "partFile": "87552p01.dat",
+        "ldrawColor": 47,
+        "step": 316,
+        "evidence": "Official booklet 6379206, page 193, Turbo step 11 (global 316) places element 6343002, catalog 87552pr0011, at the end of the opposite rear quarter window beside the White upright bricks. Official LDraw 87552p01 explicitly identifies that catalog print: https://library.ldraw.org/library/official/parts/87552p01.dat . This source right-side strip rotates the panel 180 degrees; its native +X printed corner therefore faces the White uprights at source-local x=-70. The source plain panel is replaced at its unchanged transform."
+      },
+      {
+        "id": "porsche-part-0723",
+        "ldrawColor": 15,
+        "step": 212,
+        "evidence": "Official Base212, booklet6379206 p121, calls for two White54200 cheese slopes in the paired front bumper grille subassemblies. The source uses Light Bluish Gray at the same two positions; change color only."
+      },
+      {
+        "id": "porsche-part-0727",
+        "ldrawColor": 15,
+        "step": 212,
+        "evidence": "Official Base212, booklet6379206 p121, calls for two White54200 cheese slopes in the paired front bumper grille subassemblies. The source uses Light Bluish Gray at the same two positions; change color only."
+      },
+      {
+        "id": "porsche-part-0630",
+        "position": [
+          -20.0,
+          -82,
+          -260.0
+        ],
+        "step": 176,
+        "evidence": "Official booklet 6379206, Base step 176 on page 106 and its installed assembly on page107 show two opposed Orange pin pairs joined by Red 2L axles through the LightBluishGray 9L beam. The earlier two pins from Base step 175 remain through the Yellow 9L beam. The original source put the opposed pair ends and axles on the Yellow plane (world y=-42) while omitting the Gray beam ends. Correct world y=-82 is the gray beam center from existing instance 0578. The corrected shaft axis, x coordinate, z coordinate and rotation are unchanged."
+      },
+      {
+        "id": "porsche-part-0631",
+        "position": [
+          20.0,
+          -82,
+          -260.0
+        ],
+        "step": 176,
+        "evidence": "Official booklet 6379206, Base step 176 on page 106 and its installed assembly on page107 show two opposed Orange pin pairs joined by Red 2L axles through the LightBluishGray 9L beam. The earlier two pins from Base step 175 remain through the Yellow 9L beam. The original source put the opposed pair ends and axles on the Yellow plane (world y=-42) while omitting the Gray beam ends. Correct world y=-82 is the gray beam center from existing instance 0578. The corrected shaft axis, x coordinate, z coordinate and rotation are unchanged."
+      },
+      {
+        "id": "porsche-part-0632",
+        "position": [
+          20.0,
+          -82,
+          -230.0
+        ],
+        "step": 176,
+        "evidence": "Official booklet 6379206, Base step 176 on page 106 and its installed assembly on page107 show two opposed Orange pin pairs joined by Red 2L axles through the LightBluishGray 9L beam. The earlier two pins from Base step 175 remain through the Yellow 9L beam. The original source put the opposed pair ends and axles on the Yellow plane (world y=-42) while omitting the Gray beam ends. Correct world y=-82 is the gray beam center from existing instance 0578. The corrected shaft axis, x coordinate, z coordinate and rotation are unchanged."
+      },
+      {
+        "id": "porsche-part-0633",
+        "position": [
+          -20.0,
+          -82,
+          -230.0
+        ],
+        "step": 176,
+        "evidence": "Official booklet 6379206, Base step 176 on page 106 and its installed assembly on page107 show two opposed Orange pin pairs joined by Red 2L axles through the LightBluishGray 9L beam. The earlier two pins from Base step 175 remain through the Yellow 9L beam. The original source put the opposed pair ends and axles on the Yellow plane (world y=-42) while omitting the Gray beam ends. Correct world y=-82 is the gray beam center from existing instance 0578. The corrected shaft axis, x coordinate, z coordinate and rotation are unchanged."
+      }
+    ],
+    "additions": [
+      {
+        "partFile": "10295 - 65304.dat",
+        "ldrawColor": 25,
+        "position": [
+          20.0,
+          -82,
+          -200.0
+        ],
+        "matrix": [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "nearInstanceId": "porsche-part-0630",
+        "step": 176,
+        "evidence": "Missing Gray beam end of the opposed Orange 65304 pin pair explicitly added at Base step 176, booklet 6379206 page 106. Position follows the Gray 9L beam at y=-82 and the source axle center at x=20.0,z=-230; the opposing existing pin is at z=-260, so this end is at z=-200. Page 107 independently shows this upper pin row above the existing Yellow beam pins. No geometry is added to Base step 175."
+      },
+      {
+        "partFile": "10295 - 65304.dat",
+        "ldrawColor": 25,
+        "position": [
+          -20.0,
+          -82,
+          -200.0
+        ],
+        "matrix": [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "nearInstanceId": "porsche-part-0630",
+        "step": 176,
+        "evidence": "Missing Gray beam end of the opposed Orange 65304 pin pair explicitly added at Base step 176, booklet 6379206 page 106. Position follows the Gray 9L beam at y=-82 and the source axle center at x=-20.0,z=-230; the opposing existing pin is at z=-260, so this end is at z=-200. Page 107 independently shows this upper pin row above the existing Yellow beam pins. No geometry is added to Base step 175."
+      }
+    ]
+  },
+  "endorsement": "This prototype is not affiliated with or endorsed by the LEGO Group or Porsche."
+}

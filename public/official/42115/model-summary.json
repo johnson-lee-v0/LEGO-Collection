@@ -1,0 +1,179 @@
+{
+  "actualPartInstances": 3696,
+  "flexibleInstances": 42,
+  "distinctPartFiles": 222,
+  "partColorPairs": 310,
+  "sourceStepMarkers": 480,
+  "sourceGroups": 584,
+  "sourceAssemblyOccurrences": 99,
+  "sourceStepMarkersMatchOfficialManual": false,
+  "embeddedLDrawDependencies": 685,
+  "missing": [],
+  "officialRetailPieceCount": 3696,
+  "physicalUniversalJoints": 6,
+  "sourceRawGeometryItems": 3708,
+  "officialGeometryCorrections": {
+    "setNumber": "42115",
+    "replaceMudguards": true,
+    "mudguardReplacement": {
+      "sourcePartFile": "24118.dat",
+      "correctPartFile": "67141.dat",
+      "instanceIds": [
+        "sian-part-2402",
+        "sian-part-2545",
+        "sian-part-3518",
+        "sian-part-3611"
+      ],
+      "preserveTransforms": true,
+      "removeExtraBeamIds": [
+        "sian-part-2403",
+        "sian-part-2404",
+        "sian-part-2546",
+        "sian-part-2547"
+      ],
+      "evidence": {
+        "bookletId": "6394695",
+        "pages": [
+          108,
+          132,
+          284,
+          302
+        ],
+        "steps": [
+          697,
+          746,
+          1029,
+          1062
+        ],
+        "description": "All four official instruction placements show the 67141 mudguard. Its lower connection centers match 24118, so the existing transforms are retained. Upper holes move from native (-20,-80,+/-100) on 24118 to (-20,-60,+/-120) on 67141, matching the existing axle/pin/collar positions directly. The four added 43857 beams in the source bridge the older geometry and are absent from the official inventory and instructions."
+      }
+    },
+    "parts": [
+      {
+        "id": "sian-part-2403",
+        "partFile": "2780.dat",
+        "ldrawColor": 0,
+        "position": [
+          -40,
+          0,
+          -770
+        ],
+        "matrix": [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "step": 215,
+        "nearInstanceId": "sian-part-0771",
+        "sourceAssemblyId": "root/357",
+        "sourceStep": 2,
+        "evidence": {
+          "bookletId": "6392465",
+          "page": 154,
+          "description": "Official step 215 adds two black 2L friction pins through the front 15L beam, centered at local x +/-40, y20, z30. The front-axle assembly translates by [0,-20,-800]."
+        }
+      },
+      {
+        "id": "sian-part-2404",
+        "partFile": "2780.dat",
+        "ldrawColor": 0,
+        "position": [
+          40,
+          0,
+          -770
+        ],
+        "matrix": [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "step": 215,
+        "nearInstanceId": "sian-part-0772",
+        "sourceAssemblyId": "root/357",
+        "sourceStep": 2,
+        "evidence": {
+          "bookletId": "6392465",
+          "page": 154,
+          "description": "Official step 215 adds two black 2L friction pins through the front 15L beam, centered at local x +/-40, y20, z30. The front-axle assembly translates by [0,-20,-800]."
+        }
+      },
+      {
+        "id": "sian-part-2546",
+        "partFile": "32054.dat",
+        "ldrawColor": 4,
+        "position": [
+          -160,
+          -120,
+          -320
+        ],
+        "matrix": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "step": 302,
+        "nearInstanceId": "sian-part-1129",
+        "sourceAssemblyId": "root",
+        "sourceStep": 53,
+        "evidence": {
+          "bookletId": "6392465",
+          "step": 302,
+          "description": "Position and orientation audited by the parent agent against the official page and frame geometry: stop face z=-330 meets the frame outer face; shaft reaches z=-300 through the beam."
+        }
+      },
+      {
+        "id": "sian-part-2547",
+        "partFile": "32054.dat",
+        "ldrawColor": 4,
+        "position": [
+          160,
+          -120,
+          -320
+        ],
+        "matrix": [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "step": 323,
+        "nearInstanceId": "sian-part-1176",
+        "sourceAssemblyId": "root",
+        "sourceStep": 56,
+        "evidence": {
+          "bookletId": "6392465",
+          "step": 323,
+          "description": "Position and orientation audited by the parent agent against the official page and frame geometry: stop face z=-330 meets the frame outer face; shaft reaches z=-300 through the beam."
+        }
+      }
+    ],
+    "notes": [
+      "The four removed beam instance IDs are reused for four source-omitted pins; all other instance IDs remain unchanged.",
+      "Existing black pins at step 222 and red pins at step 333 must remain; they are not missing.",
+      "Geometric connection audit only; this is not a physical load or tolerance test."
+    ]
+  }
+}

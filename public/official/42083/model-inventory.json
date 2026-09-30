@@ -1,0 +1,1587 @@
+[
+  {
+    "partFile": "10928.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "11211.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "11212.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "11212.dat",
+    "ldrawColor": 15,
+    "quantity": 2
+  },
+  {
+    "partFile": "11214.dat",
+    "ldrawColor": 4,
+    "quantity": 84
+  },
+  {
+    "partFile": "11458.dat",
+    "ldrawColor": 15,
+    "quantity": 2
+  },
+  {
+    "partFile": "11477.dat",
+    "ldrawColor": 28,
+    "quantity": 10
+  },
+  {
+    "partFile": "11477.dat",
+    "ldrawColor": 71,
+    "quantity": 4
+  },
+  {
+    "partFile": "11477.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "11478.dat",
+    "ldrawColor": 71,
+    "quantity": 8
+  },
+  {
+    "partFile": "11946.dat",
+    "ldrawColor": 0,
+    "quantity": 8
+  },
+  {
+    "partFile": "11946.dat",
+    "ldrawColor": 4,
+    "quantity": 2
+  },
+  {
+    "partFile": "11946.dat",
+    "ldrawColor": 28,
+    "quantity": 7
+  },
+  {
+    "partFile": "11946.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "11946.dat",
+    "ldrawColor": 272,
+    "quantity": 6
+  },
+  {
+    "partFile": "11946.dat",
+    "ldrawColor": 321,
+    "quantity": 1
+  },
+  {
+    "partFile": "11947.dat",
+    "ldrawColor": 0,
+    "quantity": 8
+  },
+  {
+    "partFile": "11947.dat",
+    "ldrawColor": 4,
+    "quantity": 2
+  },
+  {
+    "partFile": "11947.dat",
+    "ldrawColor": 28,
+    "quantity": 7
+  },
+  {
+    "partFile": "11947.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "11947.dat",
+    "ldrawColor": 272,
+    "quantity": 6
+  },
+  {
+    "partFile": "11947.dat",
+    "ldrawColor": 321,
+    "quantity": 1
+  },
+  {
+    "partFile": "11950.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "13731.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "13731.dat",
+    "ldrawColor": 321,
+    "quantity": 4
+  },
+  {
+    "partFile": "14720.dat",
+    "ldrawColor": 71,
+    "quantity": 6
+  },
+  {
+    "partFile": "14769.dat",
+    "ldrawColor": 0,
+    "quantity": 3
+  },
+  {
+    "partFile": "15068.dat",
+    "ldrawColor": 28,
+    "quantity": 16
+  },
+  {
+    "partFile": "15068.dat",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "15100.dat",
+    "ldrawColor": 0,
+    "quantity": 30
+  },
+  {
+    "partFile": "15100.dat",
+    "ldrawColor": 1,
+    "quantity": 17
+  },
+  {
+    "partFile": "15391.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "15458.dat",
+    "ldrawColor": 0,
+    "quantity": 7
+  },
+  {
+    "partFile": "15458.dat",
+    "ldrawColor": 272,
+    "quantity": 4
+  },
+  {
+    "partFile": "15459.dat",
+    "ldrawColor": 71,
+    "quantity": 4
+  },
+  {
+    "partFile": "15462.dat",
+    "ldrawColor": 70,
+    "quantity": 5
+  },
+  {
+    "partFile": "15573.dat",
+    "ldrawColor": 0,
+    "quantity": 3
+  },
+  {
+    "partFile": "15672.dat",
+    "ldrawColor": 321,
+    "quantity": 4
+  },
+  {
+    "partFile": "15712.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "18575.dat",
+    "ldrawColor": 19,
+    "quantity": 7
+  },
+  {
+    "partFile": "18651.dat",
+    "ldrawColor": 0,
+    "quantity": 29
+  },
+  {
+    "partFile": "18654.dat",
+    "ldrawColor": 0,
+    "quantity": 12
+  },
+  {
+    "partFile": "18654.dat",
+    "ldrawColor": 15,
+    "quantity": 23
+  },
+  {
+    "partFile": "18677.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "18677.dat",
+    "ldrawColor": 4,
+    "quantity": 4
+  },
+  {
+    "partFile": "18944.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "18944.dat",
+    "ldrawColor": 272,
+    "quantity": 6
+  },
+  {
+    "partFile": "18945.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "18946.dat",
+    "ldrawColor": 4,
+    "quantity": 11
+  },
+  {
+    "partFile": "18947.dat",
+    "ldrawColor": 72,
+    "quantity": 5
+  },
+  {
+    "partFile": "18948.dat",
+    "ldrawColor": 15,
+    "quantity": 8
+  },
+  {
+    "partFile": "20482.dat",
+    "ldrawColor": 0,
+    "quantity": 8
+  },
+  {
+    "partFile": "22961.dat",
+    "ldrawColor": 71,
+    "quantity": 17
+  },
+  {
+    "partFile": "23799.dat",
+    "ldrawColor": 0,
+    "quantity": 4
+  },
+  {
+    "partFile": "23948.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "24116.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "24118.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "24118.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "24119.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "24119.dat",
+    "ldrawColor": 28,
+    "quantity": 3
+  },
+  {
+    "partFile": "2412b.dat",
+    "ldrawColor": 0,
+    "quantity": 40
+  },
+  {
+    "partFile": "2412b.dat",
+    "ldrawColor": 179,
+    "quantity": 6
+  },
+  {
+    "partFile": "24246.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "24299.dat",
+    "ldrawColor": 321,
+    "quantity": 1
+  },
+  {
+    "partFile": "24307.dat",
+    "ldrawColor": 321,
+    "quantity": 1
+  },
+  {
+    "partFile": "2431.dat",
+    "ldrawColor": 15,
+    "quantity": 1
+  },
+  {
+    "partFile": "2431.dat",
+    "ldrawColor": 71,
+    "quantity": 3
+  },
+  {
+    "partFile": "2431.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "24316.dat",
+    "ldrawColor": 70,
+    "quantity": 18
+  },
+  {
+    "partFile": "2445.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "24505.dat",
+    "ldrawColor": 72,
+    "quantity": 6
+  },
+  {
+    "partFile": "2540.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "26287.dat",
+    "ldrawColor": 71,
+    "quantity": 6
+  },
+  {
+    "partFile": "2654.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "2730.dat",
+    "ldrawColor": 0,
+    "quantity": 4
+  },
+  {
+    "partFile": "2730.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "2736.dat",
+    "ldrawColor": 71,
+    "quantity": 5
+  },
+  {
+    "partFile": "2739a.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "2741.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "2780.dat",
+    "ldrawColor": 0,
+    "quantity": 677
+  },
+  {
+    "partFile": "2850b.dat",
+    "ldrawColor": 71,
+    "quantity": 16
+  },
+  {
+    "partFile": "2851.dat",
+    "ldrawColor": 14,
+    "quantity": 16
+  },
+  {
+    "partFile": "2852.dat",
+    "ldrawColor": 71,
+    "quantity": 16
+  },
+  {
+    "partFile": "2853.dat",
+    "ldrawColor": 14,
+    "quantity": 6
+  },
+  {
+    "partFile": "2854.dat",
+    "ldrawColor": 19,
+    "quantity": 9
+  },
+  {
+    "partFile": "29119.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "29119.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "29119.dat",
+    "ldrawColor": 272,
+    "quantity": 3
+  },
+  {
+    "partFile": "29120.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "29120.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "29120.dat",
+    "ldrawColor": 272,
+    "quantity": 3
+  },
+  {
+    "partFile": "3020.dat",
+    "ldrawColor": 0,
+    "quantity": 4
+  },
+  {
+    "partFile": "3020.dat",
+    "ldrawColor": 28,
+    "quantity": 4
+  },
+  {
+    "partFile": "3020.dat",
+    "ldrawColor": 72,
+    "quantity": 1
+  },
+  {
+    "partFile": "3021.dat",
+    "ldrawColor": 28,
+    "quantity": 2
+  },
+  {
+    "partFile": "3022.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "3022.dat",
+    "ldrawColor": 28,
+    "quantity": 1
+  },
+  {
+    "partFile": "3023.dat",
+    "ldrawColor": 0,
+    "quantity": 4
+  },
+  {
+    "partFile": "3023.dat",
+    "ldrawColor": 15,
+    "quantity": 2
+  },
+  {
+    "partFile": "3023.dat",
+    "ldrawColor": 28,
+    "quantity": 3
+  },
+  {
+    "partFile": "3023.dat",
+    "ldrawColor": 71,
+    "quantity": 5
+  },
+  {
+    "partFile": "3023.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "3024.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "3024.dat",
+    "ldrawColor": 15,
+    "quantity": 2
+  },
+  {
+    "partFile": "3024.dat",
+    "ldrawColor": 47,
+    "quantity": 8
+  },
+  {
+    "partFile": "3034.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "30503.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "3069b.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "3069b.dat",
+    "ldrawColor": 28,
+    "quantity": 1
+  },
+  {
+    "partFile": "3069b.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "3069b.dat",
+    "ldrawColor": 321,
+    "quantity": 4
+  },
+  {
+    "partFile": "3070b.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "3070b.dat",
+    "ldrawColor": 28,
+    "quantity": 2
+  },
+  {
+    "partFile": "32000.dat",
+    "ldrawColor": 0,
+    "quantity": 10
+  },
+  {
+    "partFile": "32002.dat",
+    "ldrawColor": 19,
+    "quantity": 2
+  },
+  {
+    "partFile": "32009.dat",
+    "ldrawColor": 0,
+    "quantity": 20
+  },
+  {
+    "partFile": "32009.dat",
+    "ldrawColor": 28,
+    "quantity": 8
+  },
+  {
+    "partFile": "32013.dat",
+    "ldrawColor": 0,
+    "quantity": 12
+  },
+  {
+    "partFile": "32013.dat",
+    "ldrawColor": 71,
+    "quantity": 7
+  },
+  {
+    "partFile": "32015.dat",
+    "ldrawColor": 71,
+    "quantity": 4
+  },
+  {
+    "partFile": "32016.dat",
+    "ldrawColor": 0,
+    "quantity": 8
+  },
+  {
+    "partFile": "32034.dat",
+    "ldrawColor": 0,
+    "quantity": 5
+  },
+  {
+    "partFile": "32034.dat",
+    "ldrawColor": 25,
+    "quantity": 3
+  },
+  {
+    "partFile": "32034.dat",
+    "ldrawColor": 71,
+    "quantity": 6
+  },
+  {
+    "partFile": "32039.dat",
+    "ldrawColor": 0,
+    "quantity": 8
+  },
+  {
+    "partFile": "32054.dat",
+    "ldrawColor": 25,
+    "quantity": 17
+  },
+  {
+    "partFile": "32054.dat",
+    "ldrawColor": 71,
+    "quantity": 79
+  },
+  {
+    "partFile": "32062.dat",
+    "ldrawColor": 4,
+    "quantity": 60
+  },
+  {
+    "partFile": "32072.dat",
+    "ldrawColor": 14,
+    "quantity": 7
+  },
+  {
+    "partFile": "32073.dat",
+    "ldrawColor": 71,
+    "quantity": 21
+  },
+  {
+    "partFile": "32123b.dat",
+    "ldrawColor": 14,
+    "quantity": 18
+  },
+  {
+    "partFile": "32124.dat",
+    "ldrawColor": 1,
+    "quantity": 1
+  },
+  {
+    "partFile": "32126.dat",
+    "ldrawColor": 0,
+    "quantity": 4
+  },
+  {
+    "partFile": "32140.dat",
+    "ldrawColor": 0,
+    "quantity": 35
+  },
+  {
+    "partFile": "32140.dat",
+    "ldrawColor": 272,
+    "quantity": 6
+  },
+  {
+    "partFile": "32140.dat",
+    "ldrawColor": 321,
+    "quantity": 12
+  },
+  {
+    "partFile": "32184.dat",
+    "ldrawColor": 14,
+    "quantity": 9
+  },
+  {
+    "partFile": "32184.dat",
+    "ldrawColor": 71,
+    "quantity": 10
+  },
+  {
+    "partFile": "32192.dat",
+    "ldrawColor": 321,
+    "quantity": 6
+  },
+  {
+    "partFile": "32270.dat",
+    "ldrawColor": 0,
+    "quantity": 8
+  },
+  {
+    "partFile": "32271.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "32278.dat",
+    "ldrawColor": 0,
+    "quantity": 30
+  },
+  {
+    "partFile": "32278.dat",
+    "ldrawColor": 272,
+    "quantity": 10
+  },
+  {
+    "partFile": "32291.dat",
+    "ldrawColor": 71,
+    "quantity": 10
+  },
+  {
+    "partFile": "32316.dat",
+    "ldrawColor": 0,
+    "quantity": 61
+  },
+  {
+    "partFile": "32316.dat",
+    "ldrawColor": 27,
+    "quantity": 3
+  },
+  {
+    "partFile": "32316.dat",
+    "ldrawColor": 71,
+    "quantity": 5
+  },
+  {
+    "partFile": "32316.dat",
+    "ldrawColor": 321,
+    "quantity": 4
+  },
+  {
+    "partFile": "32333.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "32494.dat",
+    "ldrawColor": 71,
+    "quantity": 4
+  },
+  {
+    "partFile": "32523.dat",
+    "ldrawColor": 71,
+    "quantity": 61
+  },
+  {
+    "partFile": "32524.dat",
+    "ldrawColor": 0,
+    "quantity": 34
+  },
+  {
+    "partFile": "32524.dat",
+    "ldrawColor": 14,
+    "quantity": 1
+  },
+  {
+    "partFile": "32524.dat",
+    "ldrawColor": 71,
+    "quantity": 6
+  },
+  {
+    "partFile": "32524.dat",
+    "ldrawColor": 272,
+    "quantity": 10
+  },
+  {
+    "partFile": "32524.dat",
+    "ldrawColor": 321,
+    "quantity": 11
+  },
+  {
+    "partFile": "32525.dat",
+    "ldrawColor": 0,
+    "quantity": 22
+  },
+  {
+    "partFile": "32525.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "32525.dat",
+    "ldrawColor": 272,
+    "quantity": 20
+  },
+  {
+    "partFile": "32525.dat",
+    "ldrawColor": 321,
+    "quantity": 9
+  },
+  {
+    "partFile": "32526.dat",
+    "ldrawColor": 71,
+    "quantity": 54
+  },
+  {
+    "partFile": "32526.dat",
+    "ldrawColor": 272,
+    "quantity": 12
+  },
+  {
+    "partFile": "32526.dat",
+    "ldrawColor": 321,
+    "quantity": 8
+  },
+  {
+    "partFile": "32529.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "32556.dat",
+    "ldrawColor": 19,
+    "quantity": 10
+  },
+  {
+    "partFile": "3460.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "3460.dat",
+    "ldrawColor": 72,
+    "quantity": 2
+  },
+  {
+    "partFile": "3623.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "3623.dat",
+    "ldrawColor": 1,
+    "quantity": 2
+  },
+  {
+    "partFile": "3623.dat",
+    "ldrawColor": 15,
+    "quantity": 2
+  },
+  {
+    "partFile": "3623.dat",
+    "ldrawColor": 28,
+    "quantity": 4
+  },
+  {
+    "partFile": "3666.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "3673.dat",
+    "ldrawColor": 71,
+    "quantity": 4
+  },
+  {
+    "partFile": "3705.dat",
+    "ldrawColor": 0,
+    "quantity": 9
+  },
+  {
+    "partFile": "3706.dat",
+    "ldrawColor": 4,
+    "quantity": 10
+  },
+  {
+    "partFile": "3707.dat",
+    "ldrawColor": 0,
+    "quantity": 5
+  },
+  {
+    "partFile": "3710.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "3710.dat",
+    "ldrawColor": 1,
+    "quantity": 2
+  },
+  {
+    "partFile": "3710.dat",
+    "ldrawColor": 15,
+    "quantity": 2
+  },
+  {
+    "partFile": "3710.dat",
+    "ldrawColor": 28,
+    "quantity": 4
+  },
+  {
+    "partFile": "3710.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "3713.dat",
+    "ldrawColor": 71,
+    "quantity": 22
+  },
+  {
+    "partFile": "3737.dat",
+    "ldrawColor": 4,
+    "quantity": 1
+  },
+  {
+    "partFile": "3749.dat",
+    "ldrawColor": 19,
+    "quantity": 1
+  },
+  {
+    "partFile": "40490.dat",
+    "ldrawColor": 71,
+    "quantity": 15
+  },
+  {
+    "partFile": "41239.dat",
+    "ldrawColor": 71,
+    "quantity": 10
+  },
+  {
+    "partFile": "41239.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "4162.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "41669.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "41669.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "41677.dat",
+    "ldrawColor": 4,
+    "quantity": 1
+  },
+  {
+    "partFile": "41677.dat",
+    "ldrawColor": 71,
+    "quantity": 15
+  },
+  {
+    "partFile": "41678.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "41678.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "41769.dat",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "41770.dat",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "42003.dat",
+    "ldrawColor": 0,
+    "quantity": 64
+  },
+  {
+    "partFile": "42003.dat",
+    "ldrawColor": 321,
+    "quantity": 6
+  },
+  {
+    "partFile": "42083 - 10197.dat",
+    "ldrawColor": 72,
+    "quantity": 2
+  },
+  {
+    "partFile": "42083 - 23801.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "42083 - 33299a.dat",
+    "ldrawColor": 0,
+    "quantity": 6
+  },
+  {
+    "partFile": "42083 - 35185.dat",
+    "ldrawColor": 1,
+    "quantity": 4
+  },
+  {
+    "partFile": "42083 - 35186.dat",
+    "ldrawColor": 14,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - 35188.dat",
+    "ldrawColor": 25,
+    "quantity": 2
+  },
+  {
+    "partFile": "42083 - 35189.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "42083 - 37383p01.dat",
+    "ldrawColor": 272,
+    "quantity": 4
+  },
+  {
+    "partFile": "42083 - 55615.dat",
+    "ldrawColor": 71,
+    "quantity": 10
+  },
+  {
+    "partFile": "42083 - 98138pt1.dat",
+    "ldrawColor": 272,
+    "quantity": 4
+  },
+  {
+    "partFile": "42083 - rigid3mmhose-1.ldr",
+    "ldrawColor": 4,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - rubberbandround-1.ldr",
+    "ldrawColor": 14,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - rubberbandround-2.ldr",
+    "ldrawColor": 511,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - rubberbandround-3.ldr",
+    "ldrawColor": 511,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - shock-06_5l-hard-1.ldr",
+    "ldrawColor": 14,
+    "quantity": 4
+  },
+  {
+    "partFile": "42083 - shock-06_5l-hard-2.ldr",
+    "ldrawColor": 14,
+    "quantity": 4
+  },
+  {
+    "partFile": "42083 - stringstudslq-1.ldr",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "42083 - technicflexaxle-1.ldr",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexaxle-2.ldr",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexaxle-3.ldr",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexaxle-4.ldr",
+    "ldrawColor": 321,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexaxle-5.ldr",
+    "ldrawColor": 321,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexaxle-6.ldr",
+    "ldrawColor": 321,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexaxle-7.ldr",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexaxle-8.ldr",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexsyshose-1.ldr",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexsyshose-2.ldr",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexsyshose-3.ldr",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexsyshose-4.ldr",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - technicflexsyshose-5.ldr",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - universal-joint-1.ldr",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "42083 - universal-joint-2.ldr",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "42083 - universal-joint-3.ldr",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "42610.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "4274.dat",
+    "ldrawColor": 71,
+    "quantity": 63
+  },
+  {
+    "partFile": "4287a.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "4287a.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "43093.dat",
+    "ldrawColor": 1,
+    "quantity": 171
+  },
+  {
+    "partFile": "43857.dat",
+    "ldrawColor": 14,
+    "quantity": 2
+  },
+  {
+    "partFile": "44294.dat",
+    "ldrawColor": 14,
+    "quantity": 9
+  },
+  {
+    "partFile": "44809.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "4519.dat",
+    "ldrawColor": 14,
+    "quantity": 35
+  },
+  {
+    "partFile": "48729b.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "48729b.dat",
+    "ldrawColor": 71,
+    "quantity": 8
+  },
+  {
+    "partFile": "48989.dat",
+    "ldrawColor": 71,
+    "quantity": 4
+  },
+  {
+    "partFile": "50303.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "52107.dat",
+    "ldrawColor": 28,
+    "quantity": 2
+  },
+  {
+    "partFile": "54200.dat",
+    "ldrawColor": 71,
+    "quantity": 3
+  },
+  {
+    "partFile": "55013.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "59426.dat",
+    "ldrawColor": 72,
+    "quantity": 7
+  },
+  {
+    "partFile": "59443.dat",
+    "ldrawColor": 0,
+    "quantity": 11
+  },
+  {
+    "partFile": "59443.dat",
+    "ldrawColor": 4,
+    "quantity": 8
+  },
+  {
+    "partFile": "59443.dat",
+    "ldrawColor": 14,
+    "quantity": 6
+  },
+  {
+    "partFile": "60484.dat",
+    "ldrawColor": 71,
+    "quantity": 42
+  },
+  {
+    "partFile": "60485.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "60897.dat",
+    "ldrawColor": 0,
+    "quantity": 4
+  },
+  {
+    "partFile": "61069.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "6141.dat",
+    "ldrawColor": 15,
+    "quantity": 5
+  },
+  {
+    "partFile": "61678.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "62462.dat",
+    "ldrawColor": 25,
+    "quantity": 3
+  },
+  {
+    "partFile": "62531.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "62531.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "62821.dat",
+    "ldrawColor": 72,
+    "quantity": 2
+  },
+  {
+    "partFile": "63864.dat",
+    "ldrawColor": 28,
+    "quantity": 8
+  },
+  {
+    "partFile": "63869.dat",
+    "ldrawColor": 0,
+    "quantity": 44
+  },
+  {
+    "partFile": "64178.dat",
+    "ldrawColor": 71,
+    "quantity": 1
+  },
+  {
+    "partFile": "64179.dat",
+    "ldrawColor": 0,
+    "quantity": 16
+  },
+  {
+    "partFile": "64392.dat",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "64392.dat",
+    "ldrawColor": 321,
+    "quantity": 1
+  },
+  {
+    "partFile": "64393.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "64393.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "64394.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "64394.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "64394.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "64680.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "64680.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "64680.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "64681.dat",
+    "ldrawColor": 272,
+    "quantity": 2
+  },
+  {
+    "partFile": "64681.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "64682.dat",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "64682.dat",
+    "ldrawColor": 321,
+    "quantity": 1
+  },
+  {
+    "partFile": "64781.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "64782.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "64799.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "6536.dat",
+    "ldrawColor": 71,
+    "quantity": 29
+  },
+  {
+    "partFile": "6558.dat",
+    "ldrawColor": 1,
+    "quantity": 432
+  },
+  {
+    "partFile": "6589.dat",
+    "ldrawColor": 19,
+    "quantity": 7
+  },
+  {
+    "partFile": "6628.dat",
+    "ldrawColor": 0,
+    "quantity": 23
+  },
+  {
+    "partFile": "6629.dat",
+    "ldrawColor": 0,
+    "quantity": 16
+  },
+  {
+    "partFile": "6629.dat",
+    "ldrawColor": 272,
+    "quantity": 6
+  },
+  {
+    "partFile": "6636.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "6636.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "6641.dat",
+    "ldrawColor": 4,
+    "quantity": 1
+  },
+  {
+    "partFile": "74695.dat",
+    "ldrawColor": 0,
+    "quantity": 46
+  },
+  {
+    "partFile": "74695.dat",
+    "ldrawColor": 272,
+    "quantity": 22
+  },
+  {
+    "partFile": "76244.dat",
+    "ldrawColor": 15,
+    "quantity": 1
+  },
+  {
+    "partFile": "76260.dat",
+    "ldrawColor": 71,
+    "quantity": 2
+  },
+  {
+    "partFile": "85984.dat",
+    "ldrawColor": 72,
+    "quantity": 9
+  },
+  {
+    "partFile": "87080.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "87080.dat",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "87080.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "87082.dat",
+    "ldrawColor": 71,
+    "quantity": 9
+  },
+  {
+    "partFile": "87083.dat",
+    "ldrawColor": 72,
+    "quantity": 17
+  },
+  {
+    "partFile": "87086.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "87086.dat",
+    "ldrawColor": 272,
+    "quantity": 1
+  },
+  {
+    "partFile": "87086.dat",
+    "ldrawColor": 321,
+    "quantity": 2
+  },
+  {
+    "partFile": "87408.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "87994.dat",
+    "ldrawColor": 71,
+    "quantity": 4
+  },
+  {
+    "partFile": "92907.dat",
+    "ldrawColor": 1,
+    "quantity": 4
+  },
+  {
+    "partFile": "93273.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "93273.dat",
+    "ldrawColor": 28,
+    "quantity": 1
+  },
+  {
+    "partFile": "93273.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "93609.dat",
+    "ldrawColor": 72,
+    "quantity": 4
+  },
+  {
+    "partFile": "94925.dat",
+    "ldrawColor": 71,
+    "quantity": 16
+  },
+  {
+    "partFile": "98138.dat",
+    "ldrawColor": 27,
+    "quantity": 2
+  },
+  {
+    "partFile": "99008.dat",
+    "ldrawColor": 19,
+    "quantity": 9
+  },
+  {
+    "partFile": "99206.dat",
+    "ldrawColor": 0,
+    "quantity": 1
+  },
+  {
+    "partFile": "99207.dat",
+    "ldrawColor": 0,
+    "quantity": 2
+  },
+  {
+    "partFile": "99773.dat",
+    "ldrawColor": 71,
+    "quantity": 4
+  }
+]
