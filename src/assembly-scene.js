@@ -1,5 +1,4 @@
 import { appUrl } from './app-path.js';
-import { officialStepTitle } from './official-source.js';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { LDrawLoader } from 'three/addons/loaders/LDrawLoader.js';
@@ -7,11 +6,13 @@ import { LDrawConditionalLineMaterial } from 'three/addons/materials/LDrawCondit
 import { bindAssemblyInstances, validateAssemblyStepMap } from './assembly-assembly.js';
 import { chooseAssemblyView, frameAssemblyBounds, interpolateAssemblyFrame } from './assembly-camera.js';
 
-/** Interactive CAD assembly grouped by the official booklet's numbered steps. */
+const officialStepTitle = step => `Step ${step.number}`;
+
+/** CAD scene renderer; the public app uses complete-model preview mode. */
 export class AssemblyScene {
   constructor(container,{model=null,steps=model?.steps||[],onPlace=()=>{},onReady=()=>{},onError=()=>{}}={}) {
     this.container=container; this.disposed=false; this.ready=false;
-    if (!model?.setNumber) throw new Error('An official collection model is required.');
+    if (!model?.setNumber) throw new Error('A collection model is required.');
     this.model=model;this.assetRoot=model.sceneConfig?.assetRoot||`/official/${model.setNumber}`;
     this.steps=steps;this.progress=0;this.preview=true;this.onPlace=onPlace;this.animations=[];this.ghostMaterials=new Set();
     this.focusMode='step';this.reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -33,7 +34,7 @@ export class AssemblyScene {
     this.targetButton.addEventListener('click',()=>{if(!this.preview&&this.ready)this.onPlace();});
     container.appendChild(this.targetButton);
     this.targetRing=document.createElement('span');this.targetRing.className='official-target-ring';this.targetRing.hidden=true;this.targetRing.setAttribute('aria-hidden','true');container.appendChild(this.targetRing);
-    this.renderer.domElement.setAttribute('aria-label',`Interactive ${model?.shortTitle||'Assembly'} assembly. Click the highlighted pieces to build the next step. Drag to rotate.`);
+    this.renderer.domElement.setAttribute('aria-label',`Interactive ${model?.shortTitle||'community'} model. Drag to rotate and scroll to zoom.`);
     this.pointerDown=e=>{this.down={x:e.clientX,y:e.clientY};};
     this.pointerUp=e=>{if(!this.ready||this.preview||!this.down||Math.hypot(e.clientX-this.down.x,e.clientY-this.down.y)>5)return;const r=this.renderer.domElement.getBoundingClientRect();const ray=new THREE.Raycaster();ray.setFromCamera(new THREE.Vector2((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1),this.camera);if(ray.intersectObjects(this.nextNodes||[],true).length)this.onPlace();};
     this.renderer.domElement.addEventListener('pointerdown',this.pointerDown);this.renderer.domElement.addEventListener('pointerup',this.pointerUp);

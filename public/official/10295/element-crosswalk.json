@@ -14,7 +14,6 @@
   "inventoryScope": "Complete box inventory; Turbo assembled quantities are a subset. Unused quantities are not source defects unless a Turbo instruction places them.",
   "instructionUsage": {
     "variant": "Turbo",
-    "instructionSource": "/official/10295/step-parts.json",
     "instructionQuantity": 1363,
     "unusedBoxQuantity": 95,
     "note": "Unused quantities remain in the full box inventory. They include alternate-build supplies, unused license-plate choices, and the separator; they are not missing Turbo geometry.",
@@ -2312,7 +2311,8 @@
         "unusedQuantity": 0
       }
     ],
-    "sourceDifferences": []
+    "sourceDifferences": [],
+    "originalBookletUrl": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6379206.pdf"
   },
   "rows": {
     "6051511": {

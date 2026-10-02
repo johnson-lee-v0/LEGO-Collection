@@ -1,9 +1,11 @@
 # Bugatti Chiron · 42083
 
-3,590 modeled pieces across 970 steps. The printed inventory contains 3,598 pieces and the published set count is 3,599. Seven pins and one belt remain unassigned to numbered additions. These counts stay distinct.
+This public model viewer displays 3,590 physical CAD instances from the community reconstruction by Philippe Hurbain (Philo). It supports rotation, zoom and model-derived inventories. It is not a build guide and does not certify physical connections, mechanisms or safety.
 
-The digital viewer maps catalog part identities and quantities to a community CAD reconstruction by Philippe Hurbain (Philo). Source model headers identify redistribution under CCAL version 2.0. Original source hashes, model changes, author names and LDraw library licenses are preserved in [model provenance](https://johnson-lee-v0.github.io/LEGO-Collection/official/42083/model-provenance.json) and [model credits](https://johnson-lee-v0.github.io/LEGO-Collection/official/42083/MODEL-CREDITS.md).
+The retained model geometry is licensed under CCAL version 2.0 (CC BY 2.0); part-library files retain their individual CC BY 2.0 / 4.0 terms. [Model credits](https://johnson-lee-v0.github.io/LEGO-Collection/official/42083/MODEL-CREDITS.md) identify the author and source. [Provenance](https://johnson-lee-v0.github.io/LEGO-Collection/official/42083/model-provenance.json) records source hashes and adaptations. These assets are excluded from the application's MIT license.
 
-Repeated identical pieces follow reconstructed placement order within matched assemblies. Joining motion is illustrative: this prototype does not simulate clutch forces, drivetrain behavior or certify a physical build.
+The public release omits the full booklet-derived instruction sequences and callout datasets. Use the original LEGO® booklets, linked from the viewer, for physical assembly. No instruction-page artwork is mirrored.
 
-Instruction page links open the original LEGO PDFs. This publication includes no mirrored instruction-page or part-illustration artwork. Element IDs and quantities are factual inventory data; they do not imply ownership of the original diagrams.
+Catalog crosswalk data is from [Rebrickable Downloads](https://rebrickable.com/downloads/), with attribution retained. The visible model inventory is counted from CAD instances.
+
+LEGO® is a trademark of the LEGO Group of companies, which does not sponsor, authorize or endorse this site. Vehicle marks belong to their respective owners.

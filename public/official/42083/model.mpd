@@ -65662,19 +65662,6 @@
 1 16 2 0 0 0 -1 0 -7.07107 0 7.07107 7.07107 0 7.07107 1-4edge.dat
 1 16 0 0 0 10 0 0 0 0 10 0 -10 0 1-8tric.dat
 1 16 0 0 0 -10 0 0 0 0 10 0 -10 0 1-8tric.dat
-0 LDCad info for "Technic Pin Connector Perpendicular  3 x  3 Bent 90 with 4 Pins"
-0 Author: Roland Melkert [roland]
-0 !LICENSE Free for non-commercial use.
-
-0 !LDCAD SNAP_CLEAR [ID=connhol3]
-0 !LDCAD SNAP_INCL [ref=connhole.dat]
-0 !LDCAD SNAP_INCL [ref=connhole.dat]
-0 !LDCAD SNAP_INCL [ref=connhole.dat]
-
-0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
-0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
-
-0 NOFILE
 0 FILE 42083 - 35185.dat
 0 35185
 0 Name: 42083 - 35185.dat
@@ -66300,15 +66287,6 @@
 1 16 0 0 -10 9 0 0 0 0 -9 0 1 0 2-4edge.dat
 1 16 0 -10 0 1 0 0 0 -20 0 0 0 -1 axle.dat
 1 16 0 0 -10 1 0 0 0 0 1 0 -20 0 axle.dat
-0 LDCad info for "Technic Axle and Pin Connector Hub with 2 Axles at 90 Degrees"
-0 Author: Roland Melkert [roland]
-0 !LICENSE Free for non-commercial use.
-
-0 !LDCAD SNAP_CLEAR [ID=axle]
-0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20] [slide=true]
-0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20] [slide=true]
-
-0 NOFILE
 0 FILE 42083 - 37383p01.dat
 0 37383p01
 0 Name: 42083 - 37383p01.dat
@@ -68080,13 +68058,6 @@
 4 16 -9.24 -3 -23.83 -9.4 -3 -23 -9.4 3 -23 -9.24 3 -23.83
 5 24 -10 9 0 10 9 0 -10 9 3.7278 -10 8.3151 -3.4443
 5 24 -10 8.3151 -3.4443 10 8.3151 -3.4443 -10 9 0 -10 6.3639 -6.3639
-0 LDCad info for "~Technic Suspension Arm Ball Socket"
-0 Author: Roland Melkert [roland]
-0 !LICENSE Free for non-commercial use.
-
-0 !LDCAD SNAP_GEN [gender=F] [bounding=sph 8] [match=size] [placement=free]
-
-0 NOFILE
 0 FILE 42083 - ldcconring-4-4.dat
 0 ldcConRing-4-4
 0 Name: 42083 - ldcConRing-4-4.dat

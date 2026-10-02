@@ -1,12 +1,21 @@
-/** Lightweight gallery data; full instructions and 3D code load only inside a build. */
+/** Lightweight metadata for the three attributed community CAD models. */
 export const COLLECTION_CATALOG = [
   {id:'lego-42115-official-v1', alias:'sian', title:'Lamborghini Sián FKP 37', shortTitle:'Lamborghini Sián', setNumber:'42115', year:2020,
-    galleryEyebrow:'LEGO TECHNIC · 2020', galleryDescription:'Lime bodywork. Gold wheels. Build the Sián from the inside out.',
-    pieceCount:3696, progressTotal:1084, thumbnail:'/official/42115/gallery-preview-v2.png'},
+    galleryEyebrow:'LEGO® TECHNIC · 2020', galleryDescription:'Lime bodywork. Gold wheels. Explore the Sián from every angle.',
+    pieceCount:3696, modeledPieceCount:3696, thumbnail:'/official/42115/gallery-preview-v2.png',
+    author:'Jens Brühl (jb70)', sourceUrl:'https://library.ldraw.org/library/omr/42115-1.mpd',
+    booklets:[{title:'Original booklet 1',sourceUrl:'https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6392465.pdf'},{title:'Original booklet 2',sourceUrl:'https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6394695.pdf'}],
+    scope:'3,696 modeled physical pieces. Community CAD geometry can omit printed details; this viewer does not validate physical connections or mechanisms.'},
   {id:'lego-42083-official-v1', alias:'chiron', title:'Bugatti Chiron', shortTitle:'Bugatti Chiron', setNumber:'42083', year:2018,
-    galleryEyebrow:'LEGO TECHNIC · 2018', galleryDescription:'Two shades of blue. One W16 engine. Bring the Chiron together.',
-    pieceCount:3599, progressTotal:970, thumbnail:'/official/42083/gallery-preview.png'},
+    galleryEyebrow:'LEGO® TECHNIC · 2018', galleryDescription:'Two shades of blue. One W16 engine. Look inside the Chiron.',
+    pieceCount:3599, modeledPieceCount:3590, thumbnail:'/official/42083/gallery-preview.png',
+    author:'Philippe Hurbain (Philo)', sourceUrl:'https://library.ldraw.org/library/omr/42083-1.mpd',
+    booklets:[{title:'Original booklet 1',sourceUrl:'https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6257443.pdf'},{title:'Original booklet 2',sourceUrl:'https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6257444.pdf'}],
+    scope:'3,590 modeled physical pieces; the published set count is 3,599. The model inventory describes this reconstruction, not the complete box contents. Stickers and some printed details are omitted.'},
   {id:'lego-10295-turbo-v1', alias:'porsche', title:'Porsche 911 Turbo', shortTitle:'Porsche 911 Turbo', setNumber:'10295', year:2021,
-    galleryEyebrow:'PORSCHE 911 · 2021', galleryDescription:'The sweeping roofline. The whale-tail spoiler. Build the Turbo.',
-    pieceCount:1458, progressTotal:366, thumbnail:'/official/10295/gallery-preview.png'},
+    galleryEyebrow:'PORSCHE 911 · 2021', galleryDescription:'The sweeping roofline. The whale-tail spoiler. Inspect the Turbo.',
+    pieceCount:1458, modeledPieceCount:1363, thumbnail:'/official/10295/gallery-preview.png',
+    author:'Ulrich Röder (UR)', sourceUrl:'https://library.ldraw.org/library/omr/10295-1_911-Turbo.mpd',
+    booklets:[{title:'Original Turbo / Targa booklet',sourceUrl:'https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6379206.pdf'}],
+    scope:'1,363 modeled physical pieces in the Turbo reconstruction. The published 1,458-piece set also supplies the alternative Targa build, which is not included here.'},
 ];

@@ -31,14 +31,35 @@ test('Chiron has 3,590 distinct physical instances including four complete unive
   assert.deepEqual(leaves.slice().sort(),instances.map(p=>p.id).sort());
 });
 
-test('Chiron retains the attributed original and has no unresolved library files',async()=>{
+test('Chiron retains its attributed redistributed source and has no unresolved library files',async()=>{
   const provenance=await json('model-provenance.json');
   const source=await readFile(new URL('source-model.mpd',root));
-  assert.equal(createHash('sha256').update(source).digest('hex'),provenance.sourceSha256);
+  assert.equal(createHash('sha256').update(source).digest('hex'),provenance.distributedSourceSha256);
   assert.match(source.toString(),/Author: Philippe Hurbain \[Philo\]/);
   assert.match(source.toString(),/Redistributable under CCAL version 2.0/);
   const manifest=await json('ldraw-manifest.json');
   assert.deepEqual(manifest.missing,[]);
+});
+
+test('Chiron omits the separately licensed snapping metadata without changing geometry',async()=>{
+  const provenance=await json('model-provenance.json');
+  const baselineHashes={
+    'source-model.mpd':'746a77bea48bca14e9b43b892ef41910e488b7bfb9fec99e494da9eb7c17fb71',
+    'model.mpd':'2b92a9e73e245bf1bce4e41c4d15c5189f7b142b8e845069963ab0d495a052aa',
+  };
+  assert.deepEqual(provenance.omittedMetadata.geometryLineSha256,baselineHashes);
+  assert.equal(provenance.distributedSourceSha256,'211c43bdf56742a47900644c73dc5b3b21ee98ba2a12f3a36e775b4367519c07');
+  assert.notEqual(provenance.distributedSourceSha256,provenance.sourceSha256);
+  for(const [file,expectedHash] of Object.entries(baselineHashes)){
+    const text=await readFile(new URL(file,root),'utf8');
+    const geometry=text.split(/\r?\n/).filter(line=>/^[1-5]\s/.test(line)).join('\n');
+    assert.equal(createHash('sha256').update(geometry).digest('hex'),expectedHash,file);
+    assert.doesNotMatch(text,/^0\s+!LDCAD\s+SNAP_/im,file);
+    assert.doesNotMatch(text,/non[ -]?commercial/i,file);
+    assert.doesNotMatch(text,/^0\s+Author:\s+Roland Melkert/im,file);
+    assert.match(text,/Author: Philippe Hurbain \[Philo\]/);
+    assert.match(text,/Redistributable under CCAL version 2\.0/);
+  }
 });
 
 test('Chiron packed CAD binds all 3,590 instances without network requests',async()=>{

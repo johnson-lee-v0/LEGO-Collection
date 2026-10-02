@@ -17,7 +17,8 @@
     "Normalized MPD filenames and references to lowercase slash paths.",
     "Indexed physical part instances with stable IDs; the separately listed official geometry corrections replace documented source substitutions and omissions.",
     "Counted each source-generated shock, flexible hose, axle, rubber band and string as one physical part.",
-    "Grouped three-component universal joint geometry into physical 61903 assemblies, preserving every component transform."
+    "Grouped three-component universal joint geometry into physical 61903 assemblies, preserving every component transform.",
+    "Omitted three separately licensed non-commercial LDCad snapping metadata blocks; see omittedMetadata. Geometry commands are unchanged by this omission."
   ],
   "limitations": [
     "Community reconstruction; the supplied LEGO booklets remain the authoritative instructions.",
@@ -599,5 +600,20 @@
     },
     "stepAnchorEvidence": "Book 1 p64 step67 puts the blackpin in the middle of the first32526 longarm: world[-60,-103,130]. The source lists the later pin0313 first; it belongs to the second Lbeam assembled at68."
   },
-  "endorsement": "This prototype is not affiliated with or endorsed by the LEGO Group or Bugatti Automobiles."
+  "endorsement": "This prototype is not affiliated with or endorsed by the LEGO Group or Bugatti Automobiles.",
+  "distributedSourceSha256": "211c43bdf56742a47900644c73dc5b3b21ee98ba2a12f3a36e775b4367519c07",
+  "omittedMetadata": {
+    "author": "Roland Melkert [roland]",
+    "licenseInOriginal": "Free for non-commercial use.",
+    "description": "Three complete appended LDCad snapping-metadata works were omitted from both distributed MPDs. The site does not use these metadata. Their associated metadata author/license lines were removed with those works; all geometry and remaining author/license notices are unchanged by this omission. The upstream original remains linked by modelSource and identified by sourceSha256; source-model.mpd is now the redistributed copy identified by distributedSourceSha256.",
+    "parts": [
+      "42083 - 55615.dat",
+      "42083 - 10197.dat",
+      "s/42083 - 57515s01.dat"
+    ],
+    "geometryLineSha256": {
+      "source-model.mpd": "746a77bea48bca14e9b43b892ef41910e488b7bfb9fec99e494da9eb7c17fb71",
+      "model.mpd": "2b92a9e73e245bf1bce4e41c4d15c5189f7b142b8e845069963ab0d495a052aa"
+    }
+  }
 }
