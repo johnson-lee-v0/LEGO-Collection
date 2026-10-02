@@ -41,10 +41,16 @@ These reconstructions map part identities and quantities to the official instruc
 
 LEGO and vehicle marks belong to their respective owners. This independent collection is not endorsed by them.
 
+## License
+
+Original application code is licensed under the [MIT License](LICENSE), copyright 2026 Johnson Lee. Third-party software dependencies retain their own licenses.
+
+The MIT license does not relicense the bundled LDraw models, part geometry, generated model data or previews derived from them, or inventory and instruction data derived from third-party sources. Those assets retain their existing terms, including CCAL version 2.0 (CC BY 2.0) and CC BY 4.0 where specified, author notices and attribution, as recorded below and in each model's embedded headers, `ldraw/CAreadme.txt` and `ldraw/CAlicense.txt`. Third-party artwork, data and trademarks remain subject to their owners' rights and terms.
+
 ## Model records
 
-- [Sián credits](public/official/42115/MODEL-CREDITS.md) · [provenance](public/official/42115/model-provenance.json)
-- [Chiron credits](public/official/42083/MODEL-CREDITS.md) · [provenance](public/official/42083/model-provenance.json)
-- [Porsche credits](public/official/10295/MODEL-CREDITS.md) · [provenance](public/official/10295/model-provenance.json)
+- [Sián credits — Jens Brühl (jb70)](public/official/42115/MODEL-CREDITS.md) · [provenance](public/official/42115/model-provenance.json)
+- [Chiron credits — Philippe Hurbain (Philo)](public/official/42083/MODEL-CREDITS.md) · [provenance](public/official/42083/model-provenance.json)
+- [Porsche credits — Ulrich Röder (UR)](public/official/10295/MODEL-CREDITS.md) · [provenance](public/official/10295/model-provenance.json)
 
 Tests cover inventory reconciliation, CAD loading and binding, unique part assignment, joining actions, camera visibility, browser-local progress, source links and static project paths.
